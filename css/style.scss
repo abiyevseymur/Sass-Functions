@@ -1,0 +1,115 @@
+$width:550;
+$height:150;
+$display:1300;
+$color:#333;
+@function misal($size) {
+    @return ($size/2)+px;
+}
+
+@function balaca($size) {
+    @return ($size/4)+px;
+}
+
+@function lapbalaca($size) {
+    @return ($size/8)+px;
+}
+
+@function color($color) {
+    @return ($color + #777);
+}
+
+//SASS
+.head {
+    height: 250px;
+    background: #ccc;
+    width: $display;
+    border-radius: misal(100);
+    .element {
+        width: $width + px;
+        height: $height + px;
+        border-radius: 100px;
+        margin: 50px;
+        float: left;
+        background: color($color);
+    }
+    .anyelement {
+        height: $height + px;
+        border-radius: 100px;
+        width: $width + px;
+        float: left;
+        margin: 50px;
+        background: color($color);
+    }
+}
+
+.headone {
+    height: misal( 250);
+    $color: #32ff0d;
+    background: #32ff0d;
+    width: misal($display);
+    border-radius: misal(100);
+    .elementone {
+        width: misal($width);
+        height: misal($height);
+        border-radius: 100px;
+        margin: misal(50);
+        float: left;
+        background: color($color);
+    }
+    .anyelementone {
+        width: misal($width);
+        height: misal($height);
+        border-radius: 100px;
+        margin: misal(50);
+        float: left;
+        background: color($color);
+    }
+}
+
+.headtwo {
+    height: balaca( 250);
+    background: #70d2e2;
+    border-radius: misal(100);
+    $color: #70d2e2;
+    width: balaca($display);
+    .elementtwo {
+        width: balaca($width);
+        border-radius: 100px;
+        height: balaca($height);
+        margin: balaca(50);
+        float: left;
+        background: color($color);
+    }
+    .anyelementtwo {
+        width: balaca($width);
+        height: balaca($height);
+        border-radius: 100px;
+        margin: balaca(50);
+        float: left;
+        background: color($color);
+    }
+}
+
+.headtree {
+    height: lapbalaca(250);
+    background: #ffc700;
+    border-radius: misal(100);
+    $color: #ffc700;
+    width: lapbalaca($display);
+    .elementtree {
+        width: lapbalaca($width);
+        border-radius: 100px;
+        height: lapbalaca($height);
+        margin: lapbalaca(50);
+        float: left;
+        background: color($color);
+    }
+    .anyelementtree {
+        width: lapbalaca($width);
+        height: lapbalaca($height);
+        border-radius: 100px;
+        margin: lapbalaca(50);
+        float: left;
+        background: color($color);
+    }
+}

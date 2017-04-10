@@ -1,0 +1,81 @@
+.head {
+  height: 250px;
+  background: #ccc;
+  width: 1300;
+  border-radius: 50px; }
+  .head .element {
+    width: 550px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 50px;
+    float: left;
+    background: #aaaaaa; }
+  .head .anyelement {
+    height: 150px;
+    border-radius: 100px;
+    width: 550px;
+    float: left;
+    margin: 50px;
+    background: #aaaaaa; }
+
+.headone {
+  height: 125px;
+  background: #32ff0d;
+  width: 650px;
+  border-radius: 50px; }
+  .headone .elementone {
+    width: 275px;
+    height: 75px;
+    border-radius: 100px;
+    margin: 25px;
+    float: left;
+    background: #a9ff84; }
+  .headone .anyelementone {
+    width: 275px;
+    height: 75px;
+    border-radius: 100px;
+    margin: 25px;
+    float: left;
+    background: #a9ff84; }
+
+.headtwo {
+  height: 62.5px;
+  background: #70d2e2;
+  border-radius: 50px;
+  width: 325px; }
+  .headtwo .elementtwo {
+    width: 137.5px;
+    border-radius: 100px;
+    height: 37.5px;
+    margin: 12.5px;
+    float: left;
+    background: #e7ffff; }
+  .headtwo .anyelementtwo {
+    width: 137.5px;
+    height: 37.5px;
+    border-radius: 100px;
+    margin: 12.5px;
+    float: left;
+    background: #e7ffff; }
+
+.headtree {
+  height: 31.25px;
+  background: #ffc700;
+  border-radius: 50px;
+  width: 162.5px; }
+  .headtree .elementtree {
+    width: 68.75px;
+    border-radius: 100px;
+    height: 18.75px;
+    margin: 6.25px;
+    float: left;
+    background: #ffff77; }
+  .headtree .anyelementtree {
+    width: 68.75px;
+    height: 18.75px;
+    border-radius: 100px;
+    margin: 6.25px;
+    float: left;
+    background: #ffff77; }
+
+/*# sourceMappingURL=style.css.map */
